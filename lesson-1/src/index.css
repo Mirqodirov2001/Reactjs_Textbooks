@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Source+Code+Pro&family=Source+Serif+4:opsz@8..60&family=Tenor+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 85px;
+  align-items: center;
+  margin-bottom: 60px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+}
+
+.nav {
+  display: flex;
+  column-gap: 770px;
+  align-items: center;
+}
+
+.nav__logo {
+  margin: 30px;
+  cursor: pointer;
+  margin-left: 0;
+
+}
+
+.nav__list {
+  display: flex;
+  column-gap: 40px;
+  list-style-type: none;
+}
+
+.nav__list--item {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Libre Franklin;
+  cursor: pointer;
+}
+
+.nav__list--item:hover {
+  color: red;
+}
+
+#intro {
+  height: 700px;
+  margin: 130px;
+}
+
+.wrapper {
+  display: flex;
+  column-gap: 50px;
+
+}
+
+.text1 {
+  color: #999;
+  font-size: 10px;
+  font-family: Libre Franklin;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+h1 {
+  color: black;
+  font-size: 32px;
+  font-family: Tenor Sans;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 42px;
+  margin-bottom: 27px;
+}
+
+.p2 {
+  font-family: Libre Franklin;
+  color: #666;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+h4 {
+  color: #000;
+  font-size: 12px;
+  font-family: Libre Franklin;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
